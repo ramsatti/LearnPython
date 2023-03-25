@@ -12,11 +12,4 @@ for i in range(0, len(array)-1):  # (0, 2) => i = 0, 1
     otherArray.append(array[i]+array[i+1])
     print("i=", i, ";otherArray[i]=", otherArray[i])
    
-# otherNum = False
-# for x in array:
-#     if otherNum == False:
-#         otherNum = x
-#     else:
-#         otherArray.append(otherNum+x)
-#         otherNum = x
 print(otherArray)
