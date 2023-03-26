@@ -1,8 +1,8 @@
 array = [7,9,4,0]
-min = array[0] 
+max = array[0] 
      
 for i in range(0, len(array)):    
-   if(array[i] < min):    
-       min = array[i]    
+   if(array[i] > max):    
+       max = array[i]    
            
-print("Smallest element present in given array: " + str(min))
+print("Largest element present in given array: " + str(max))
