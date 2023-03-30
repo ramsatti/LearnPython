@@ -5,7 +5,17 @@ temp = 0;
 #Displaying elements of original array    
 print("Elements of original array: ");    
 for i in range(0, len(arr)):    
-    print(arr[i], end=" ");    
+    print(arr[i], end=" "); 
+
+
+#step 1:  - - - - 8
+
+
+#step 2:  - - - 7 8
+#
+#
+#step 5:  1 2 5 7 8
+
      
 #Sort the array in ascending order    
 for i in range(0, len(arr)):    
