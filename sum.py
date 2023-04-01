@@ -6,4 +6,4 @@ while num>0:
     num = num // 10
     total = total + remaining
     print('total = ', total,'num = ', num)
-print(total)
+print(total)     
