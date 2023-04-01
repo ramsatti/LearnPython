@@ -5,5 +5,7 @@ delta = 2  # int(input('What is the difference? '))
 n = 4  # (input('What is the ending number? '))
 
 for i in range(n):
-    print(startinNum)
+    print ('Index #', str(i), '= |', str(startinNum), '|')
+    int(i)
+    int(startinNum)
     startinNum = startinNum + delta
