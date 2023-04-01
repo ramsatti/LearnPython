@@ -1,11 +1,13 @@
 num = int(input('What is the number? '))
 prime = True
+i = 2
 
-for i in range(2, num):
+while i < num:
     if num % i == 0:
         prime = False
         print(num, 'is Composite!')
         break
+    i += 1
 
-if prime == True: 
-    print(num, 'is Prime')
+if prime == True:
+    print(num, 'is Prime!')
