@@ -2,14 +2,14 @@ def parenthesisCheck(s: str) -> bool:
     stack = []
     closeToOpen = {')': '(', ']': '[', '}': '{'}
            
-    for i in s:
-        if i in closeToOpen:
-            if stack and stack[-1] == closeToOpen[i]:
+    for ch in s:
+        if ch in closeToOpen:
+            if stack and stack[-1] == closeToOpen[ch]:
                 stack.pop()
             else:
                 return False
         else:
-            stack.append(i)
+            stack.append(ch)
 
     return not stack
 
