@@ -1,5 +1,7 @@
+import getpass
+
 usernme = input('Username: ')
-paswrd = input('Password: ')
+paswrd = getpass.getpass('Password: ')
 print('You have been registered')
 
 def register(username, password):
@@ -9,7 +11,7 @@ def register(username, password):
         return 'Incorrect username or password'
 
 userIpt = input('Username: ')
-pwdIpt = input('Password: ')
+pwdIpt = getpass.getpass('Password: ')
 
 ans = register(userIpt, pwdIpt)
 print(ans)
